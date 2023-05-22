@@ -1,4 +1,4 @@
-# 2698. Find the Punishment Number of an Integer
+/*# 2698. Find the Punishment Number of an Integer
 
 Given a positive integer n, return the punishment number of n.
 The punishment number of n is defined as the sum of the squares of all integers i such that:
@@ -30,10 +30,8 @@ Hence, the punishment number of 37 is 1 + 81 + 100 + 1296 = 1478
 > Constraints:
 1 <= n <= 1000
 
-# Code - Java
-
-```Java []
-
+# Solution - Java
+*/
 class Solution {
     public int punishmentNumber(int n) {
         int result = 0;
@@ -67,4 +65,4 @@ class Solution {
         return false;
     }
 }
-``` 
+
