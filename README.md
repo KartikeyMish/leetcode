@@ -17,5 +17,5 @@
 
 
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/KartikeyMish?theme=dark&font=Raleway%20Dots)
+![LeetCode Stats](https://leetcard.jacoblin.cool/kartikeymish?theme=dark&font=DM%20Sans&ext=contest)
  
