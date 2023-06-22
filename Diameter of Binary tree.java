@@ -10,6 +10,9 @@
 }*/
 
 // we take max of left diamater + right diameter and path through root node (i.e. left tree height + right tree height + 1)
+
+// Time complexity : O(n^2)
+
 class Solution {
     // Function to return the diameter of a Binary Tree.
     int diameter(Node root) {
