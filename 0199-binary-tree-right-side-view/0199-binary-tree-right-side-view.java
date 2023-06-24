@@ -14,17 +14,19 @@
  * }
  */
 class Solution {
+    static List<Integer> list;
     public List<Integer> rightSideView(TreeNode root) {
-        List<Integer> list = new ArrayList<Integer>();
-        traverse(root,list,0);
+        list = new ArrayList<Integer>();
+        traverse(root,0);
         return list;
     }
-        public void traverse(TreeNode curr, List<Integer> result, int currDepth){
-        if(curr == null){return;}
-        if(currDepth == result.size()){
-            result.add(curr.val);
+    private static void traverse(TreeNode root,int depth){
+        if(root==null)return;
+        if(list.size()==depth){
+            list.add(root.val); 
         }
-        traverse(curr.right, result, currDepth + 1);
-        traverse(curr.left, result, currDepth + 1);
+        traverse(root.right,depth+1);
+        traverse(root.left,depth+1);
     }
+
 }
